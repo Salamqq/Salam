@@ -39,22 +39,36 @@ from strings import get_command
 from AlexaMusic.utils.database import is_served_user
 
 # Command
-PLAY_COMMAND = get_command(""شغل","تشغيل"")
+[
+        [
+            InlineKeyboardButton(   
+                text=f"اضغط للأشتراك .", url=f"t.me/L_Q7I"
+            )                        
+        ],        
+    ]
+)
+
+async def check_is_joined(message):    
+    try:
+        userid = message.from_user.id
+        user_name = message.from_user.first_name
+        status = await app.get_chat_member("L_Q7I", userid)
+        return True
+    except Exception:
+        await message.reply_text(
+            f'❤️‍🩹┇عزيزي: {message.from_user.mention}\n🫀┇أشتࢪك في قناة البوت أولاً.\n🚧┇قناة البوت: @L_Q7I 🫂',
+            reply_markup=force_btn,
+            disable_web_page_preview=False
+        )
+        return False
 
 
-@app.on_message(filters.command("شغل","تشغيل") & filters.group & ~BANNED_USERS)
-@PlayWrapper
-async def play_commnd(
-    client,
-    message: Message,
-    _,
-    chat_id,
-    video,
-    channel,
-    playmode,
-    url,
-    fplay,
-):
+@app.on_message(command(["فيديو","شغل","تشغيل"])
+    & filters.group
+    & ~BANNED_USERS
+) 
+async def process_command(message): 
+    # قم بتنفيذ الأوامر هنا
     if not await is_served_user(message.from_user.id):
         await message.reply_text(
             text="😢 ᴅᴇᴀʀ ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀ ᴠᴇʀɪғɪᴇᴅ ᴀᴛ ᴀʟᴇxᴀ ᴅᴀᴛᴀʙᴀsᴇ.\n☔ ᴘʟᴇᴀsᴇ ᴜsᴇ /verify ᴛᴏ ᴠᴇʀɪғʏ ʏᴏᴜʀsᴇʟғ ᴀᴛ ᴀʟᴇxᴀ ᴅᴀᴛᴀʙᴀsᴇ.",
