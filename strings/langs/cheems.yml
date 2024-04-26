@@ -226,31 +226,31 @@ stream_4 : "📡 **Stamrted Streaming** 💡\n\n**🏷Timtle:** [{0}]({1})\n⌛�
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "🗑 Clomse"
-CLOSEMENU_BUTTON  : "🗑 Clomse Menu"
-BACK_BUTTON : "⬅ Bamck"
-UNBAN_BUTTON : "🗑 Unbamn Assimstant"
+CLOSE_BUTTON  : "🗑 اغلاق"
+CLOSEMENU_BUTTON  : "🗑 اغلاق القائمة"
+BACK_BUTTON : "⬅ رجوع"
+UNBAN_BUTTON : "🗑 مساعد"
 
 #Lyrics
 L_B_1 : "🚀 Chemckout Lyrimcs Now"
 
 # Start
-S_B_1 : "🗒 Commands"
+S_B_1 : "🗒 الاوامر"
 S_B_2 : "🔧 Semttings"
-S_B_3 : "📨 Sumpport"
-S_B_4 : "📨 Chamnnel"
-S_B_5 : "✚ Add me to youmr Groump"
-S_B_6 : "💡 Git Repo"
-S_B_7 : "👤 Bot Owner"
-S_B_8 : "🔎 How to Use? Commands Menu."
+S_B_3 : "📨 السورس"
+S_B_4 : "📨 قناة السورس"
+S_B_5 : "✚ اضفني الى المجموعة"
+S_B_6 : "💡 سورس ليثون"
+S_B_7 : "👤 مبرمج السورس"
+S_B_8 : "🔎 كيفية استخدام الاوامر."
 
 #Help 
-H_B_1 : "Amdmin Commands"
-H_B_2 : "Plamy Commands"
-H_B_3 : "Bomt Commands"
-H_B_4 : "Emxtra Commands"
-H_B_5 : "Clomse Menu"
-H_B_6 : "Sumdo Umser Commands"
+H_B_1 : "اوامر المشرف"
+H_B_2 : "اوامر العضو"
+H_B_3 : "اوامر البوت"
+H_B_4 : "اوامر السورس"
+H_B_5 : "اغلاق القائمه"
+H_B_6 : "اوامري"
 
 #PlayMode
 PM_B_1 : "DimrectPlay"
@@ -258,10 +258,10 @@ PM_B_2 : "InlimneMarkup"
 PM_B_3 : "ChamnnelPlay"
 
 #Play
-P_B_1 : "🎵 Plamy Aumdio"
-P_B_2 : "🎥 Plamy Vimdeo"
-P_B_3 : "🏮 Starmt Limve Stream"
-P_B_4 : "🎵 Plamy Plamylist"
+P_B_1 : "🎵 تشغيل الموسيقى"
+P_B_2 : "🎥 تشغيل فيديو"
+P_B_3 : "🏮 ستارت"
+P_B_4 : "🎵 قائمه"
 
 #Playlist
 PL_B_1 : "🚀 Plamy Playlimst"
