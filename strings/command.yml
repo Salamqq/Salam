@@ -1,100 +1,100 @@
-# Bot Commands
-PING_COMMAND : ["ping"]
-START_COMMAND : ["start"]
-HELP_COMMAND : ["help"]
-SETTINGS_COMMAND : ["settings", "setting"]
-RELOAD_COMMAND : ["admincache", "reload"]
+# أوامر بوت
+PING_COMMAND : ["البنغ"]
+START_COMMAND: ["البدء"]
+HELP_COMMAND : ["مساعدة"]
+SETTINGS_COMMAND: ["الإعدادات"، "الإعداد"]
+RELOAD_COMMAND: ["admincache"، "إعادة التحميل"]
 GSTATS_COMMAND : ["gstats"]
-STATS_COMMAND : ["stats"]
-LANGUAGE_COMMAND : ["lang", "language", "langs"]
+STATS_COMMAND : ["الإحصائيات"]
+LANGUAGE_COMMAND: ["lang"، "language"، "language"]
 
-# Play Commands
-PLAY_COMMAND : ["play", "fuck", "vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce"]
-PLAYMODE_COMMAND : ["playmode"]
-CHANNELPLAY_COMMAND : ["channelplay"]
-STREAM_COMMAND : ["stream", "cstream", "streamforce"]
+# تشغيل الأوامر
+PLAY_COMMAND: ["play"، "fuck"، "vplay"، "cplay"، "cvplay"، "playforce"، "vplayforce"، "cplayforce"، "cvplayforce"]
+PLAYMODE_COMMAND : ["وضع التشغيل"]
+CHANNELPLAY_COMMAND : ["تشغيل القناة"]
+STREAM_COMMAND: ["دفق"، "cstream"، "streamforce"]
 
-#Playlists Command
-PLAYLIST_COMMAND : ["playlist"]
-DELETEPLAYLIST_COMMAND : ["deleteplaylist"]
-
-
-# Tools
-QUEUE_COMMAND : ["queue","cqueue", "player", "cplayer", "playing", "cplaying"]
-SONG_COMMAND : ["song", "video", "vsong"]
-LYRICS_COMMAND : ["lyrics"]
+#Playlists أمر قوائم التشغيل
+PLAYLIST_COMMAND : ["قائمة التشغيل"]
+DELETEPLAYLIST_COMMAND : ["حذف قائمة التشغيل"]
 
 
-# Admin Commands
-AUTH_COMMAND : ["auth"]
-UNAUTH_COMMAND : ["unauth"]
+# أدوات
+QUEUE_COMMAND: ["قائمة الانتظار"، "cqueue"، "player"، "cplayer"، "playing"، "cplaying"]
+SONG_COMMAND : ["أغنية"، "فيديو"، "vsong"]
+LYRICS_COMMAND : ["كلمات"]
+
+
+# أوامر المشرف
+AUTH_COMMAND : ["المصادقة"]
+UNAUTH_COMMAND : ["إلغاء المصادقة"]
 AUTHUSERS_COMMAND : ["authusers"]
-PAUSE_COMMAND : ["pause", "cpause"]
-RESUME_COMMAND : ["resume", "cresume"]
-MUTE_COMMAND : ["mute", "cmute"]
-UNMUTE_COMMAND : ["unmute", "cunmute"]
-STOP_COMMAND : ["stop", "end", "cstop", "cend"]
-SKIP_COMMAND : ["skip", "cskip"]
-SHUFFLE_COMMAND : ["shuffle", "cshuffle"]
-LOOP_COMMAND : ["loop", "cloop"]
-SEEK_COMMAND : ["seek", "cseek", "seekback", "cseekback"]
-RESTART_COMMAND : ["reboot"]
+PAUSE_COMMAND: ["إيقاف مؤقت"، "cpause"]
+RESUME_COMMAND: ["استئناف"، "cresume"]
+MUTE_COMMAND: ["كتم الصوت"، "cmute"]
+UNMUTE_COMMAND: ["إلغاء كتم الصوت"، "cunmute"]
+STOP_COMMAND: ["إيقاف"، "نهاية"، "cstop"، "cend"]
+SKIP_COMMAND: ["تخطي"، "cskip"]
+SHUFFLE_COMMAND : ["shuffle"، "cshuffle"]
+LOOP_COMMAND: ["حلقة"، "cloop"]
+SEEK_COMMAND: ["seek"، "cseek"، "seekback"، "cseekback"]
+RESTART_COMMAND: ["إعادة التشغيل"]
 
-# Sudo Users Commaands
+# أوامر مستخدمي سودو
 
-# Sudo Command
+#أمر سودو
 ADDSUDO_COMMAND : ["addsudo"]
-DELSUDO_COMMAND : ["delsudo", "rmsudo"]
-SUDOUSERS_COMMAND : ["sudolist", "listsudo"]
+DELSUDO_COMMAND : ["delsudo"، "rmsudo"]
+SUDOUSERS_COMMAND : ["sudolist"، "listsudo"]
 
-#Broadcast 
-BROADCAST_COMMAND : ["broadcast", "gcast"]
+#Broadcast
+BROADCAST_COMMAND: ["البث"، "gcast"]
 
-#Blacklist chat
-BLACKLISTCHAT_COMMAND : ["blacklistchat", "blchat"]
-WHITELISTCHAT_COMMAND : ["whitelistchat", "unblchat"]
-BLACKLISTEDCHAT_COMMAND : ["blacklistedchat"]
+#دردشة #Blacklist
+BLACKLISTCHAT_COMMAND : ["blacklistchat"، "blchat"]
+WHITELISTCHAT_COMMAND : ["القائمة البيضاء للدردشة"، "إلغاء الدردشة"]
+BLACKLISTEDCHAT_COMMAND : ["الدردشة في القائمة السوداء"]
 
-# Video Calls Command
+#أمر مكالمات الفيديو
 VIDEOLIMIT_COMMAND : ["set_video_limit"]
-VIDEOMODE_COMMAND : ["videomode"]
+VIDEOMODE_COMMAND : ["وضع الفيديو"]
 
 #Mantenance
-MAINTENANCE_COMMAND : ["maintenance"]
-LOGGER_COMMAND : ["logger"]
+MAINTENANCE_COMMAND : ["الصيانة"]
+LOGGER_COMMAND : ["المسجل"]
 
 #Heroku
-GETLOG_COMMAND : ["get_log", "logs", "getlog", "log"]
-GETVAR_COMMAND : ["get_var", "getvar", "showvar"]
-DELVAR_COMMAND : ["del_var", "delvar"]
-SETVAR_COMMAND : ["set_var", "setvar", "addvar"]
-USAGE_COMMAND : ["usage"]
-VARS_COMMAND : ["vars", "config"]
+GETLOG_COMMAND: ["get_log"، "logs"، "getlog"، "log"]
+GETVAR_COMMAND: ["get_var"، "getvar"، "showvar"]
+DELVAR_COMMAND : ["del_var"، "delvar"]
+SETVAR_COMMAND: ["set_var"، "setvar"، "addvar"]
+USAGE_COMMAND : ["الاستخدام"]
+VARS_COMMAND: ["vars"، "config"]
 
 
-#Basic Bot Commands
-UPDATE_COMMAND : ["update"]
-REBOOT_COMMAND : ["restart"]
-AUTOEND_COMMAND : ["autoend"]
+#Basic أوامر الروبوت الأساسية
+UPDATE_COMMAND : ["تحديث"]
+REBOOT_COMMAND : ["إعادة التشغيل"]
+AUTOEND_COMMAND: ["النهاية التلقائية"]
 
-#Private Bot Mode
-AUTHORIZE_COMMAND : ["authorize"]
-UNAUTHORIZE_COMMAND : ["unauthorize"]
-AUTHORIZED_COMMAND : ["authorized"]
+#Private وضع الروبوت الخاص
+AUTHORIZE_COMMAND : ["تفويض"]
+UNAUTHORIZE_COMMAND : ["غير مصرح به"]
+AUTHORIZED_COMMAND : ["مصرح به"]
 
-#Block Users Command
-BLOCK_COMMAND : ["block"]
-UNBLOCK_COMMAND : ["unblock"]
-BLOCKED_COMMAND : ["blockedusers"]
+#Block أمر حظر المستخدمين
+BLOCK_COMMAND: ["حظر"]
+UNBLOCK_COMMAND : ["إلغاء الحظر"]
+BLOCKED_COMMAND : ["المستخدمون المحظورون"]
 
 #sPEEDTEST
-SPEEDTEST_COMMAND : ["speedtest"]
+SPEEDTEST_COMMAND : ["اختبار السرعة"]
 
-#Voice chat commands
-ACTIVEVC_COMMAND : ["activevoice", "activevc"]
-ACTIVEVIDEO_COMMAND : ["activevideo", "activev"]
+#أوامر الدردشة #Voice
+ACTIVEVC_COMMAND: ["activevoice"، "activevc"]
+ACTIVEVIDEO_COMMAND: ["activevideo"، "activev"]
 
-#Gban Commands
+#Gban أوامر غبان
 GBAN_COMMAND : ["gban"]
 UNGBAN_COMMAND : ["ungban"]
 GBANNED_COMMAND : ["gbannedusers"]
