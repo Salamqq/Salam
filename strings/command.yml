@@ -73,7 +73,7 @@ VARS_COMMAND : ["vars", "config"]
 
 
 #Basic Bot Commands
-UPDATE_COMMAND : ["تجديث"]
+UPDATE_COMMAND : ["تحديث"]
 REBOOT_COMMAND : ["اعادة تشغيل"]
 AUTOEND_COMMAND : ["autoend"]
 
@@ -88,7 +88,7 @@ UNBLOCK_COMMAND : ["الغاء الحظر"]
 BLOCKED_COMMAND : ["مستخدمين محظورين"]
 
 #sPEEDTEST
-SPEEDTEST_COMMAND : ["السرعه"]
+SPEEDTEST_COMMAND : ["قياس السرعه"]
 
 #Voice chat commands
 ACTIVEVC_COMMAND : ["activevoice", "activevc"]
