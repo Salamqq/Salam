@@ -37,15 +37,14 @@ UNAUTH_COMMAND : ["unauth"]
 AUTHUSERS_COMMAND : ["authusers"]
 PAUSE_COMMAND : ["pause", "cpause"]
 RESUME_COMMAND : ["resume", "cresume"]
-MUTE_COMMAND : ["كتم ", "cmute"]
-UNMUTE_COMMAND : ["الغاء الكتم", "cunmute"]
-STOP_COMMAND : ["ايقاف", "انهاء", "يق", "ان"]
-SKIP_COMMAND : ["تخطي", "cskip"]
+MUTE_COMMAND : ["mute", "cmute"]
+UNMUTE_COMMAND : ["unmute", "cunmute"]
+STOP_COMMAND : ["ايقاف", "end", "cstop", "cend"]
+SKIP_COMMAND : ["تخطى", "cskip"]
 SHUFFLE_COMMAND : ["shuffle", "cshuffle"]
 LOOP_COMMAND : ["loop", "cloop"]
 SEEK_COMMAND : ["seek", "cseek", "seekback", "cseekback"]
-RESTART_COMMAND : ["اعاده تشغيل"]
-
+RESTART_COMMAND : ["reboot"]
 # Sudo Users Commaands
 
 # Sudo Command
