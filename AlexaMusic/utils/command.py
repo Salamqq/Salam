@@ -3,7 +3,7 @@
 
 """"
 TheTeamAlexa is a project of Telegram bots with variety of purposes.
-Copyright (c) 2024 -present Team=laeton <https://github.com/Salamqq>
+Copyright (c) 2024 -present Team=Alexa <https://github.com/TheTeamAlexa>
 
 This program is free software: you can redistribute it and can modify
 as you want or you can collabe if you have new ideas.
@@ -17,4 +17,4 @@ other_filters2 = filters.private & ~filters.via_bot & ~filters.forwarded
 
 
 def commandpro(commands: Union[str, List[str]]):
-    return filters.command(commands
+    return filters.command(commands, "")
