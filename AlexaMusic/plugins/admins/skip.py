@@ -27,7 +27,7 @@ from AlexaMusic.utils.thumbnails import gen_thumb
 from AlexaMusic.utils.theme import check_theme
 
 # Commands
-SKIP_COMMAND = get_command(""تخطي","تخ"")
+SKIP_COMMAND = get_command("SKIP_COMMAND")
 
 
 @app.on_message(filters.command("تخطي","تخ") & filters.group & ~BANNED_USERS)
