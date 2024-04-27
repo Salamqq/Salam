@@ -39,7 +39,7 @@ from strings import get_command
 from AlexaMusic.utils.database import is_served_user
 
 # Command
-PLAY_COMMAND = get_command("شغل")
+PLAY_COMMAND = get_command("PLAY_COMMAND")
 
 
 @app.on_message(filters.command(PLAY_COMMAND) & filters.group & ~BANNED_USERS)
