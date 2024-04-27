@@ -19,7 +19,7 @@ from AlexaMusic.utils.database import set_loop
 from AlexaMusic.utils.decorators import AdminRightsCheck
 
 # Commands
-STOP_COMMAND = get_command("ايقاف","انهاء")
+STOP_COMMAND = get_command("STOP_COMMAND")
 
 
 @app.on_message(filters.command("ايقاف","انهاء") & filters.group & ~BANNED_USERS)
