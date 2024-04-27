@@ -14,6 +14,12 @@ PLAYMODE_COMMAND : ["playmode"]
 CHANNELPLAY_COMMAND : ["تشغيل القنا"]
 STREAM_COMMAND : ["stream", "cstream", "streamforce"]
 
+force_btn:
+  - text: "اضغط للأشتراك"
+    url: "t.me/L_Q7I"
+
+check_is_joined_message: "❤️‍🩹┇عزيزي: {{user_mention}}\n🫀┇أشتࢪك في قناة البوت أولاً.\n🚧┇قناة البوت: @L_Q7I 🫂"
+
 #Playlists Command
 PLAYLIST_COMMAND : ["playlist"]
 DELETEPLAYLIST_COMMAND : ["deleteplaylist"]
