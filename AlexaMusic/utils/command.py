@@ -17,4 +17,4 @@ other_filters2 = filters.private & ~filters.via_bot & ~filters.forwarded
 
 
 def commandpro(commands: Union[str, List[str]]):
-    return filters.command(commands) & (other_filters | other_filters2)
+    return filters.command(commands
