@@ -30,12 +30,8 @@ from config import BANNED_USERS, lyrical
     & ~BANNED_USERS
 )
 @app.on_message(filters.command(["play","vplay","cplay","cvplay",
-            "playforce",
-            "vplayforce",
-            "cplayforce",
-            "cvplayforce",])
-    & filters.channel
-    & ~BANNED_USERS
+            "playforce", "vplayforce", "cplayforce", "cvplayforce",])
+    custom_filters = filters.command(commands_list) & filters.channel & ~BANNED_USERS
 )
 @PlayWrapper
 async def play_commnd(
